@@ -1,0 +1,13 @@
+.empty-star{
+    color: rgb(1, 94, 6);
+}
+.full-star{
+    color: rgb(0, 255, 13);
+}
+.item{
+    border-radius: 20px !important;
+    transition: 0.7s;
+}
+.item:hover{
+    transform: translateY(-5px);
+}

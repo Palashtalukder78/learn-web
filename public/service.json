@@ -4,69 +4,79 @@
         "title": "Web Design",
         "price": 100,
         "photo": "https://www.thecreativemomentum.com/hubfs/blog-files/2007%20batch/2007-10-Sites%20for%20Web%20Design%20Inspiration-h-1.jpg",
-        "rating": 4.5
+        "rating": 4.5,
+        "availableSit": 9
     },
     {
         "id": "2",
         "title": "Javascript",
         "price": 150,
         "photo": "https://i.ytimg.com/vi/o1IaduQICO0/maxresdefault.jpg",
-        "rating": 4.5
+        "rating": 5,
+        "availableSit": 4
     },
     {
         "id": "3",
         "title": "React JS",
         "price": 140,
         "photo": "https://i.ytimg.com/vi/w7ejDZ8SWv8/maxresdefault.jpg",
-        "rating": 4.5
+        "rating": 5,
+        "availableSit": 10
     },
     {
         "id": "4",
         "title": "Node Js",
         "price": 140,
         "photo": "https://www.blog.duomly.com/thumbnails/2020/07/nodejs-project-ideas-for-beginners.png",
-        "rating": 4.5
+        "rating": 4,
+        "availableSit": 3
     },
     {
         "id": "5",
         "title": "Express Js",
         "price": 100,
         "photo": "https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/getting-started-with-expressjs-banner-96ecb31ec64b6504.jpeg",
-        "rating": 4.5
+        "rating": 4.5,
+        "availableSit": 5
     },
     {
         "id": "6",
         "title": "Mongo DB",
         "price": 80,
         "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz9kZIy843IMW34pxG8-7Tkw5SKf3WKMbCEw&usqp=CAU",
-        "rating": 4.5
+        "rating": 5,
+        "availableSit": 2
     },
     {
         "id": "7",
         "title": "React Native",
         "price": 170,
         "photo": "data:image/png;base64,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",
-        "rating": 4.5
+        "rating": 4.2,
+        "availableSit": 3
     },
     {
         "id": "8",
         "title": "PHP",
         "price": 120,
         "photo": "https://www.seoclerk.com/pics/000/752/001/3ab84585bdc7c8b822c98d3011fe25f1.png",
-        "rating": 4.5
+        "rating": 3.7,
+        "availableSit": 1
     },
     {
         "id": "9",
         "title": "Laravel",
         "price": 90,
         "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ouvZK-bb48l1aHzL4U-wAxWcTqT43DuzEQ&usqp=CAU",
-        "rating": 4.5
+        "rating": 4,
+        "availableSit": 7
     },
     {
         "id": "9",
         "title": "Wordpress",
         "price": 60,
         "photo": "https://sgd.com.au/wp-content/uploads/2018/12/Looking-for-a-WordPress-Developer-1042x665.jpg",
-        "rating": 4.5
+        "rating": 4.2,
+        "availableSit": 8
     }
 ]
