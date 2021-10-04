@@ -55,7 +55,7 @@ const Contact = () => {
                             <input type="text" className="form-control my-2 form-item " placeholder="Enter your name" />
                             <input type="email" className="form-control my-2 form-item " placeholder="Enter your email" />
                             <textarea className="form-control form-item " name="" id="" cols="10" rows="4" placeholder="Enter your messages"></textarea>
-                            <button className="btn btn-primary btn-sm my-2">Send</button>
+                            <button className="btn btn-primary my-2">Send</button>
                         </form>
                     </div>
                 </div>
