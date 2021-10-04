@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Container, Spinner } from 'react-bootstrap';
 import Banner from '../Banner/Banner';
 import Instructors from '../Instructors/Instructors';
-
 const About = () => {
     const [instructors, setInstructors] = useState([]);
     useEffect(() => {

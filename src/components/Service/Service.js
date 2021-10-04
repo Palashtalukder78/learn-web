@@ -19,7 +19,7 @@ const Service = () => {
     }
     return (
         <Container className="py-4">
-            <h1 className="text-center">Services</h1>
+            <h1 className="text-center">Fetured</h1>
             <div className="row my-4">
                 {services.length === 0 ?
                     <div className="text-center">

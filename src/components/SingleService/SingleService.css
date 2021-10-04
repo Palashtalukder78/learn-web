@@ -11,3 +11,11 @@
 .item:hover{
     transform: translateY(-5px);
 }
+.service-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    color: rgb(0, 255, 13);;
+}
