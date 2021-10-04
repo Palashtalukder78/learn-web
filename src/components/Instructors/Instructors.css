@@ -1,0 +1,7 @@
+.instructor{
+    border-radius: 30px !important;
+    transition: 0.7s;
+}
+.instructor:hover{
+    transform: translateY(-5px);
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Andree willium",
+        "focused": "Backend Developer",
+        "students": 1550,
+        "rating": 4.3,
+        "rated": 1005,
+        "photo": "https://media.istockphoto.com/photos/man-with-crossed-arms-isolated-on-gray-background-picture-id1171169099?k=20&m=1171169099&s=612x612&w=0&h=4t0Nqz3UdjvDo2PK_3MfHxRcshKaZI4TpKvskGvKEVk="
+    },
+    {
+        "id": 2,
+        "name": "John Richart",
+        "focused": "Wordpress Developer",
+        "students": 2050,
+        "rating": 4.6,
+        "rated": 600,
+        "photo": "https://image.shutterstock.com/image-photo/close-portrait-smiling-handsome-guy-260nw-734623684.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Jill Poye",
+        "focused": "React Development",
+        "students": 1650,
+        "rating": 5,
+        "rated": 1203,
+        "photo": "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?size=626&ext=jpg"
+    },
+    {
+        "id": 4,
+        "name": "Palash Talukder",
+        "focused": "Frontend Development",
+        "students": 1850,
+        "rating": 5,
+        "rated": 1560,
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7d7zANrGLpAEsZ1MhX6JgG-LOMPCtxp7RStCeXTlsUXAB20ue5mkspTToNKaP_SWrwGA&usqp=CAU"
+    }
+]

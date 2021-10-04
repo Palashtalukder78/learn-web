@@ -13,7 +13,6 @@ const SingleService = (props) => {
                     <div class="col-md-7">
                         <div class="card-body">
                             <h5 class="card-title">{title}</h5>
-                            <p class="card-text mb-0">Price: <b>$ {price}</b></p>
                             <p class="card-text  m-0"><small class="text-muted">Only {availableSit} sit available. Enroll Fast</small></p>
                             <Rating
                                 initialRating={rating}
@@ -21,6 +20,7 @@ const SingleService = (props) => {
                                 fullSymbol="fas fa-star full-star"
                                 readonly
                             />
+                            <p class="card-text mb-0">Price: <b>$ {price}</b></p>
                         </div>
                     </div>
                 </div>

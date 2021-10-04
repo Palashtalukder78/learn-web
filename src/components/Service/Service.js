@@ -13,20 +13,20 @@ const Service = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);
-    const featureServices = services.filter(service => service.id <= 4);
+    // const featureServices = services.filter(service => service.id <= 4);
     const handleMoreService = () => {
         history.push('/services')
     }
     return (
         <Container className="py-4">
-            <h1 className="text-center">Service</h1>
+            <h1 className="text-center">Services</h1>
             <div className="row my-4">
                 {services.length === 0 ?
                     <div className="text-center">
                         <Spinner animation="grow" variant="dark" />
                     </div>
                     :
-                    featureServices?.map(service => <SingleService
+                    services?.slice(0, 4).map(service => <SingleService
                         key={service.id}
                         service={service}
                     ></SingleService>)
