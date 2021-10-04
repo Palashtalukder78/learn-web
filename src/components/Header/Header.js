@@ -11,7 +11,7 @@ const Header = () => {
         <Navbar bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand href="#home">
-                    <h3>{element} MERNDEV</h3>
+                    <h3>{element} LearnWeb</h3>
                 </Navbar.Brand>
                 <Nav className="ms-auto">
                     <Stack direction="horizontal" gap={4}>

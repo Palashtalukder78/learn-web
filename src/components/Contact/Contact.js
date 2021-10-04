@@ -36,7 +36,7 @@ const Contact = () => {
                             <div className="card-header">
                                 <h1>{envelope}</h1>
                                 <h2>Email</h2>
-                                <p>merndev.service@gmail.com</p>
+                                <p>learnweb.service@gmail.com</p>
                             </div>
                         </div>
                     </div>
