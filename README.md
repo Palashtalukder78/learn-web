@@ -1,6 +1,6 @@
 # MERN dev
 
-Live Site: [view](https://github.com/facebook/create-react-app).
+Live Site: [view](https://mern-dev-react.netlify.app/).
 
 <ul>
     <li>We will make you perfect for get a Job.</li>
