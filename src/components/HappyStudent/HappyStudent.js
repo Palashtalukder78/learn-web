@@ -9,6 +9,7 @@ const HappyStudent = () => {
             .then(data => setFeedbacks(data))
     }, [])
     return (
+        // Student Review 
         <Container className="my-4">
             <h2 className="text-center ">Happy Students</h2>
             {feedbacks.length === 0 ?

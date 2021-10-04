@@ -12,10 +12,12 @@ const Footer = () => {
         <div className="bg-dark">
             <Container>
                 <div className="row text-light py-4 ">
+                    {/* Footer About  */}
                     <div className="col-md-4 ">
                         <h4>Learn web</h4>
                         <p>Web development is the work involved in developing a Web site for the Internet or an intranet. You can learn with us.</p>
                     </div>
+                    {/* Navigation or Important link  */}
                     <div className="col-md-4 text-center middle-footer">
                         <h4>Important Link</h4>
                         <Stack className="middle-menu" direction="horizontal" gap={4}>
@@ -36,8 +38,8 @@ const Footer = () => {
                                 color: "white"
                             }}>Contact</NavLink>
                         </Stack>
-
                     </div>
+                    {/* Footer Contact  */}
                     <div className="col-md-4">
                         <h4>Address</h4>
                         <h6>{home} Dhaka</h6>

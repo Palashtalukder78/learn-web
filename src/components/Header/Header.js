@@ -8,6 +8,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
     const element = <FontAwesomeIcon icon={faCode} />
     return (
+        // Navigation 
         <Navbar bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand href="#home">

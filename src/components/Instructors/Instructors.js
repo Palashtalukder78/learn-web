@@ -5,6 +5,7 @@ import './Instructors.css'
 const Instructors = (props) => {
     const { name, photo, focused, rating, rated, students } = props.instructor;
     return (
+        // Instructor Section for About us Page
         <div className="col-md-3">
             <div class="card text-center instructor shadow">
                 <img className="rounded-circle mx-auto my-2" style={{ height: "100px", width: "100px" }} src={photo} alt="" />
