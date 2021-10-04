@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Container, Spinner } from 'react-bootstrap';
+import HappyStudent from '../HappyStudent/HappyStudent';
 import SingleService from '../SingleService/SingleService';
 
 const Service = () => {
@@ -26,6 +27,7 @@ const Service = () => {
                     ></SingleService>)
                 }
             </div>
+            <HappyStudent></HappyStudent>
         </Container>
     );
 };
