@@ -11,6 +11,7 @@ const Contact = () => {
     return (
         <div>
             <Container>
+                <h1 className="text-center my-3">Contact US</h1>
                 <div className="row my-4">
                     <div className="col-md-4">
                         <div className="card text-center">
@@ -49,7 +50,7 @@ const Contact = () => {
                 </div>
                 <div className="col-md-6 text-center my-3">
                     <div className="form shadow" style={{ width: '70%', margin: "auto" }}>
-                        <h2>Contact Us</h2>
+                        <h3 className="text-primary">Message Us</h3>
                         <form>
                             <input type="text" className="form-control my-2 form-item " placeholder="Enter your name" />
                             <input type="email" className="form-control my-2 form-item " placeholder="Enter your email" />
