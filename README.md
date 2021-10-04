@@ -1,6 +1,6 @@
-# MERN dev
+# Learn Web
 
-Live Site: [view](https://mern-dev-react.netlify.app/).
+Live Site: [view](https://learn-web-react.netlify.app/).
 
 <ul>
     <li>We will make you perfect for get a Job.</li>
