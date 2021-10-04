@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "Jill Poye",
-        "focused": "React Development",
+        "focused": "React Developer",
         "students": 1650,
         "rating": 5,
         "rated": 1203,
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Palash Talukder",
-        "focused": "Frontend Development",
+        "focused": "Frontend Developer",
         "students": 1850,
         "rating": 5,
         "rated": 1560,
