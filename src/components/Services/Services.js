@@ -1,17 +1,11 @@
-import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import React, { useContext } from 'react';
 import { Container, Spinner } from 'react-bootstrap';
+import { serviceContext } from '../../App';
 import HappyStudent from '../HappyStudent/HappyStudent';
 import SingleService from '../SingleService/SingleService';
 
 const Service = () => {
-    const [services, setServices] = useState([]);
-    useEffect(() => {
-        fetch('./service.json')
-            .then(res => res.json())
-            .then(data => setServices(data))
-    }, []);
+    const [services] = useContext(serviceContext);
     return (
         <Container className="py-4">
             <h1 className="text-center">Services</h1>
