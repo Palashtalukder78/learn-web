@@ -51,7 +51,7 @@ const Contact = () => {
                 <div className="col-md-6">
                     <iframe src={map}
                         style={{ width: '100%', height: "450px" }}
-                        allowfullscreen="" loading="lazy" title="map"></iframe>
+                        loading="lazy" title="map"></iframe>
                 </div>
                 {/* Contact Form  */}
                 <div className="col-md-6 text-center my-3">

@@ -7,11 +7,11 @@ const Instructors = (props) => {
     return (
         // Instructor Section for About us Page
         <div className="col-md-3">
-            <div class="card text-center instructor shadow">
+            <div className="card text-center instructor shadow">
                 <img className="rounded-circle mx-auto my-2" style={{ height: "100px", width: "100px" }} src={photo} alt="" />
-                <div class="card-body">
-                    <h5 class="card-title">{name}</h5>
-                    <p class="card-text">{focused}</p>
+                <div ClassName="card-body">
+                    <h5 ClassName="card-title">{name}</h5>
+                    <p ClassName="card-text">{focused}</p>
                     <Rating
                         initialRating={rating}
                         emptySymbol="far fa-star empty-star"
@@ -20,8 +20,8 @@ const Instructors = (props) => {
                     />
                     <span>({rated})</span>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">{students} Students</small>
+                <div ClassName="card-footer">
+                    <small ClassName="text-muted">{students} Students</small>
                 </div>
             </div>
         </div>

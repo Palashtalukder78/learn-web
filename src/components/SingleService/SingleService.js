@@ -9,16 +9,16 @@ const SingleService = (props) => {
     const { title, photo, price, rating, availableSit, rated, durations } = props.service;
     return (
         <div className="col-md-6">
-            <div class="card mb-3 item shadow">
-                <div class="row g-0">
-                    <div class="col-md-5">
-                        <img src={photo} class="img-fluid rounded-start service-photo" style={{ height: "150px" }} alt="..." />
+            <div className="card mb-3 item shadow">
+                <div className="row g-0">
+                    <div className="col-md-5">
+                        <img src={photo} className="img-fluid rounded-start service-photo" style={{ height: "150px" }} alt="..." />
                     </div>
-                    <div class="col-md-7">
-                        <div class="card-body">
-                            <h5 class="card-title">{title}</h5>
-                            <p class="card-text  m-0"><small class="text-muted">Only {availableSit} sit available. Enroll Fast</small></p>
-                            <p class="card-text mb-0">Price: <b>$ {price}</b></p>
+                    <div className="col-md-7">
+                        <div className="card-body">
+                            <h5 className="card-title">{title}</h5>
+                            <p className="card-text  m-0"><small className="text-muted">Only {availableSit} sit available. Enroll Fast</small></p>
+                            <p className="card-text mb-0">Price: <b>$ {price}</b></p>
                             <div className="service-icons">
                                 <div>
                                     <Rating
